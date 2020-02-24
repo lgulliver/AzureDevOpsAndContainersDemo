@@ -50,11 +50,14 @@ Change azuredevopscontainersdemo to dotnetnotts
 6. Go to Azure DevOps
 
 7. Go to Docker Hub
+8. `docker run -d -p 80:80 liamgu/dotnetnotts:<buildid>`
+9. Make a change to the site content. Add this gif: https://media.giphy.com/media/WrgtbRE1zywNy/giphy.gif
+10. Commit change and push to repo
+11. `docker run -d -p 80:80 liamgu/dotnetnotts:<buildid>`
 
-8. `docker run -d -p 80:80 liamgu/dotnetnotts`
-
-
-Make a change to the site content. Add this gif: https://media.giphy.com/media/WrgtbRE1zywNy/giphy.gif
+12. Open Visual Studio
+13. Create new .NET Core MVC project and enable docker support
+14. Run the build with docker
 
 # Useful commands
 
