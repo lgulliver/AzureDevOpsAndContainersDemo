@@ -1,5 +1,5 @@
 pool:
-  name: ubuntu-18.04
+  name: Azure Pipelines
 steps:
 - task: Docker@2
   displayName: build
